@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow {
+    border: solid #000;
+    border-width: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .left {
+    border-color: #f2994a;
+    margin-top: -5rem;
+    margin-right: -3rem;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .right {
+    border-color: #2d9cdb;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
