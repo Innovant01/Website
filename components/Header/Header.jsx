@@ -28,7 +28,7 @@ function Header() {
       </div>
 
       <div className={styles.right} onClick={handleLogout}>
-        {/* This a React component from material UI which has its own props, in this case i'm changing the background color to white and the text color to black */}
+       
         <Avatar sx={{ bgcolor: "white", color: "black" }}>Ar</Avatar>
       </div>
     </header>
