@@ -32,7 +32,6 @@
     font-size: 1.2rem;
     border-radius: 0.3rem;
     transition: 0.2s ease-in-out;
-    max-width: 10rem;
     align-self: center;
     margin-bottom: 5rem;
   }
@@ -40,24 +39,9 @@
   .submit__btn:hover {
     cursor: pointer;
     background-color: rgb(29, 29, 29);
-    
-    
-  }
-  
-  .input__container__name {
-    display: flex;
-    width: 40rem;
-    justify-content: space-between;
-    align-content: center;
-    margin-bottom: 2rem;
-  }
-  
-  .input__name {
-    width: 19.5rem;
   }
 
   .btn__style{
     margin: 2rem 0 0 0;
     flex-direction: column;
-    
-}
+  }

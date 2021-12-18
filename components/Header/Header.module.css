@@ -25,6 +25,7 @@
   
   .logo {
     margin-right: 5rem;
+    margin-left: 2rem;
   }
   
   .navigation {
@@ -63,16 +64,18 @@
   
   .left__arrow {
     border-color: #f2994a;
+    border-radius: 2px 2px 5px 2px;
     position: relative;
     top: -1rem;
     margin-top: 1rem;
-    margin-right: -1rem;
+    margin-right: -1.75rem;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
   }
   
   .right__arrow {
     border-color: #2d9cdb;
+    border-radius: 2px 2px 5px 2px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }

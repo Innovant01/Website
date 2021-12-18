@@ -13,14 +13,16 @@
   
   .left {
     border-color: #f2994a;
-    margin-top: -5rem;
-    margin-right: -3rem;
+    border-radius: 5px 5px 15px 5px;
+    margin-top: -4rem;
+    margin-right: -4rem;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
   }
   
   .right {
     border-color: #2d9cdb;
+    border-radius: 5px 5px 15px 5px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
